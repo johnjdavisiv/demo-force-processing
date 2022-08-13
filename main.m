@@ -42,7 +42,7 @@ undrift_sto = strrep(this_sto, '.sto', '_undrift.sto');
 filter_and_assign_run_forces(undrift_sto, fp_fs, ...
         force_step_lp_cutoff,force_data_lp_cutoff, f_threshold);
 
-disp('Results are in Data/S999/Unprocessed TRC and MOT folder');
+disp('Results are in /Data/S999/Unprocessed TRC and MOT folder/');
 
 
 

@@ -16,7 +16,7 @@ Running `main.m` does the following things:
 8) Format forces for OpenSim (flip coordinate system)  
 9) Assign forces to feet using a virtual force plate technique where there are two "virtual" force plates superimposed on one another (one that only applies force to the left foot, and one that only applies force to the right foot). Also does some clever interpolation during swing phase when CoP is undefined; this helps avoid issues at initial contact/toe-off.   
 
-Resulting .mot and .trc files can be viewed in OpenSim with the `File > Preview Experimental Data...` feature. 
+Resulting .mot and .trc files can be viewed in OpenSim with the `File > Preview Experimental Data...` feature. The final, fully processed files to view are `JDX_S999_run_0021.trc` (markers) and `JDX_S999_run_0021_undrift.mot` (force). 
 
 ## Useful references  
 
