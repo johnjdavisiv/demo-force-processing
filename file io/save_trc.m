@@ -1,5 +1,5 @@
 function save_trc(save_name, save_path, qtm_data, n_frames, n_markers, fs, marker_names)
-%Quick saving as OPenSim compatible trc file
+%Quick saving for QTM data as OpenSim compatible trc file
 
 %This is NOT the same function as write_trc()!
 

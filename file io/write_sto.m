@@ -1,5 +1,5 @@
 function write_sto(data_array,column_names, save_path, first_line_string)
-%Write an array to OPenSim copmatible .sto format
+%Write an array to OpenSim copmatible .sto format
 
 %Debug
 %data_array = marker_error_avg;
